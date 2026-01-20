@@ -85,25 +85,8 @@ The detection model is trained to detect the following dental conditions:
 30: Primary teeth
 ```
 
-## Sample Input and Output
 
-Here is an example of a panoramic dental X-ray image being processed by the model.
 
-### Input
 
-The sample panoramic dental X-ray image that was uploaded for analysis.
 
-![Sample Input](https://github.com/Loki-Silvres/Dental-Disease-Detection/blob/Flask/sample_img.jpg)
 
-### Output
-
-The same image after processing, with bounding boxes and segmentation masks applied. The palette on the right indicates which color corresponds to each detected condition.
-
-![Sample Output](https://github.com/Loki-Silvres/Dental-Disease-Detection/blob/Flask/output.jpg)
-
-### Sample Video
-[X-Ray_Disease_Detection_Sample_Video.webm](https://github.com/user-attachments/assets/601c36ed-fd09-4d2c-9768-59b1112058b6)
-
-## Acknowledgments
-
-- Model trained using the dataset available on [Kaggle](https://www.kaggle.com/datasets/lokisilvres/dental-disease-panoramic-detection-dataset).
