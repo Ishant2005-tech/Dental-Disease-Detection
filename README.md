@@ -86,7 +86,19 @@ The detection model is trained to detect the following dental conditions:
 ```
 
 
+### Input
+
+The sample panoramic dental X-ray image that was uploaded for analysis.
+
+![Sample Input](https://github.com/Ishant2005-tech/Dental-Disease-Detection/blob/master/sample_img.jpg)
+
+### Output
+
+The same image after processing, with bounding boxes and segmentation masks applied. The palette on the right indicates which color corresponds to each detected condition.
+
+![Sample Output](https://github.com/Ishant2005-tech/Dental-Disease-Detection/blob/master/output.jpg)
 
 
+## Acknowledgments
 
-
+- Model trained using the dataset available on [Kaggle](https://www.kaggle.com/datasets/ishantrajkashyap/dental-disease-detection).
